@@ -3,7 +3,7 @@
 ## How to run with Docker
 
 ```bash
-# Build Docker Image for details service
+# Build Docker Image for review service
 docker build -t review .
 
 # Run Ruby

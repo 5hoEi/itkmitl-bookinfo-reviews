@@ -7,6 +7,6 @@
 docker build -t review .
 
 # Run Ruby
-docker run -d --name review -p 8082:9080 review
+docker run -d --name review -p 8082:8082 review
 
 * Test with path `/reviews/1` and `/health`

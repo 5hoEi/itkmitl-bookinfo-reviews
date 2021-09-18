@@ -1,1 +1,1 @@
-# itkmitl-bookinfo-reviews
+# Bookinfo Application for Workshop

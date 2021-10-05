@@ -1,0 +1,10 @@
+services:
+  productpage:
+    build: .
+    image: ghcr.io/5hoei/bookinfo-reviews:dev
+    ports:
+      - "8082:9080"
+    environment:
+      RATINGS_HOSTNAME: http://ratings:8080
+  ratings:
+    image: ghcr.io/5hoei/bookinfo-ratings:dev
